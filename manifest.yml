@@ -33,10 +33,10 @@ spec:
         resources:
           limits:
             cpu: "1000m"
-            memory: "1000Mi"
+            memory: "512Mi"
           requests:
-            cpu: "500m"
-            memory: "750Mi"
+            cpu: "250m"
+            memory: "256Mi"
         # volumeMounts:
         # - mountPath: "/"
         #   name: portfolio-storage
